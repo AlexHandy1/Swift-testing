@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CalculatorRestart/ViewController.swift"
+            timestampString = "455698533.391057"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculatorRestart.ViewController.CalcDisplay.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "CalculatorRestart"
+                  urlString = "file:///Users/alexanderhandy/OneDrive/MA_Projects/Swift-testing/StanfordCourse/CalculatorRestart/CalculatorRestart/CalculatorRestart/ViewController.swift"
+                  timestampString = "455662453.306699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculatorRestart.ViewController.CalcDisplay.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "CalculatorRestart"
+                  urlString = "file:///Users/alexanderhandy/OneDrive/MA_Projects/Swift-testing/StanfordCourse/CalculatorRestart/CalculatorRestart/CalculatorRestart/ViewController.swift"
+                  timestampString = "455662453.306859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculatorRestart.ViewController.init (CalculatorRestart.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; CalculatorRestart.ViewController"
+                  moduleName = "CalculatorRestart"
+                  urlString = "file:///Users/alexanderhandy/OneDrive/MA_Projects/Swift-testing/StanfordCourse/CalculatorRestart/CalculatorRestart/CalculatorRestart/ViewController.swift"
+                  timestampString = "455662453.307039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculatorRestart.ViewController.init (CalculatorRestart.ViewController.Type)() -&gt; CalculatorRestart.ViewController"
+                  moduleName = "CalculatorRestart"
+                  urlString = "file:///Users/alexanderhandy/OneDrive/MA_Projects/Swift-testing/StanfordCourse/CalculatorRestart/CalculatorRestart/CalculatorRestart/ViewController.swift"
+                  timestampString = "455662453.307322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalculatorRestart.ViewController.init (CalculatorRestart.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; CalculatorRestart.ViewController"
+                  moduleName = "CalculatorRestart"
+                  urlString = "file:///Users/alexanderhandy/OneDrive/MA_Projects/Swift-testing/StanfordCourse/CalculatorRestart/CalculatorRestart/CalculatorRestart/ViewController.swift"
+                  timestampString = "455662453.307602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CalculatorRestart/ViewController.swift"
+            timestampString = "455698708.458651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

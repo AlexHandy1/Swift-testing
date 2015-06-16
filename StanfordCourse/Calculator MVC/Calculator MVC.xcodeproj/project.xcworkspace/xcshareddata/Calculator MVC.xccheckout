@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9B7C04C-C721-4049-8A37-77AD2D5AA29B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Calculator MVC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>28447EBEBFB4F18D0814432B89AB4A9FB2EAFDCE</key>
+		<string>https://github.com/AlexHandy1/reddit-search.git</string>
+		<key>C0B05426BBBDFE14D9EF95F8363E291B7F1AFBF9</key>
+		<string>https://github.com/AlexHandy1/Swift-testing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StanfordCourse/Calculator MVC/Calculator MVC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>28447EBEBFB4F18D0814432B89AB4A9FB2EAFDCE</key>
+		<string>../../../../..</string>
+		<key>C0B05426BBBDFE14D9EF95F8363E291B7F1AFBF9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlexHandy1/Swift-testing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0B05426BBBDFE14D9EF95F8363E291B7F1AFBF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>28447EBEBFB4F18D0814432B89AB4A9FB2EAFDCE</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0B05426BBBDFE14D9EF95F8363E291B7F1AFBF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift-testing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
