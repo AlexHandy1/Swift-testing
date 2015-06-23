@@ -9,8 +9,7 @@
 import Foundation
 
 class API {
-    func weatherSearch(#urlSearch: String) -> Dictionary<String,AnyObject>
-    {
+    func weatherSearch(#urlSearch: String, callback: (Dictionary<String,AnyObject> -> ())) {
         let urlPath = "http://api.openweathermap.org/data/2.5/weather?q=" + urlSearch
         let url = NSURL(string: urlPath)
         let session = NSURLSession.sharedSession()
@@ -23,20 +22,13 @@ class API {
             var err: NSError?
             if let jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as? NSDictionary {
                 var dataOut = jsonResult as Dictionary<String,AnyObject>
-                return dataOut
-                if(err != nil) {
-                    // If there is an error parsing JSON, print it to the console
-                    println("JSON Error \(err!.localizedDescription)")
-                }
-                if let results: NSArray = jsonResult["results"] as? NSArray {
-                    dispatch_async(dispatch_get_main_queue(), {
-                        println(results)
-                    })
-                }
+                callback(dataOut)
+                //omitted some additional error handling code
             }
         })
         task.resume()
     }
+
 }
 
 //AlamoFire (gem install cocoapods)

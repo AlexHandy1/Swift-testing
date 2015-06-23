@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Alexander Handy. All rights reserved.
 //
 
+import Social
 import UIKit
 
 class DetailViewController: UIViewController {
@@ -42,6 +43,20 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        //action below is method that is tapped
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "shareTapped")
+    }
+    
+    //brings up sharing activity bar
+    func shareTapped() {
+//        let activity = UIActivityViewController(activityItems: [detailImageView.image!], applicationActivities: [])
+//        presentViewController(activity, animated: true, completion: nil)
+        let social = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        // why have to explicit state parameter above but not below
+        social.setInitialText("Hello world, buy my app")
+        social.addImage(detailImageView.image!)
+        social.addURL(NSURL(string: "http://www.photolib.ngaa.gov/nsll"))
+        presentViewController(social, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
